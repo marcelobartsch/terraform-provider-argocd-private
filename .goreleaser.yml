@@ -38,8 +38,8 @@ release:
   draft: true
   disable: false
   github:
-    owner: oboukili
-    name: terraform-provider-argocd
+    owner: marcelobartsch
+    name: terraform-provider-argocd-private
 changelog:
   skip: false
   filters:
