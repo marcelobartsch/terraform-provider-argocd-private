@@ -2,7 +2,7 @@ TEST?=./...
 GOFMT_FILES?=$$(find . -name '*.go' |grep -v vendor)
 PKG_NAME=pass
 
-BINARY=terraform-provider-argocd
+BINARY=terraform-provider-argocd-private
 VERSION = $(shell git describe --always)
 
 default: build-all
